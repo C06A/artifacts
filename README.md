@@ -24,7 +24,8 @@ Create separate branch for each repository. Artifactory creates by default follo
 1. plugin-snapshots
 1. plugin-releases
 
-Also each of these repos has "-local" and remote copy.
+However there is not much use of "-snapshot" repositories as GitHub won't provide any special handling expected from
+Maven repository. Also each of these repos has "-local" and remote copy.
 
 This makes sense, but anyone may create any other (or not create any of these) repos.
 
